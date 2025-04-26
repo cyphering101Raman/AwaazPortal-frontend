@@ -124,7 +124,7 @@ const HomePage = () => {
         
         <div className="mt-4 flex justify-end">
           <a 
-            href={`/complaints/${complaint.id}`} 
+            href={`/complaint/${complaint.id}`} 
             className="text-indigo-600 hover:text-indigo-500 text-sm font-medium flex items-center transition-colors duration-200"
           >
             View Details
